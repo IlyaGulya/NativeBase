@@ -968,7 +968,9 @@ declare module "native-base" {
      * Tabs are a horizontal region of buttons or links that allow for a consistent navigation experience between screens.
      * It can contain any combination of text and icons, and is a popular method for enabling mobile navigation.
      */
-	export class Tabs extends React.Component<NativeBase.Tabs, any> {}
+	export class Tabs extends React.Component<NativeBase.Tabs, any> {
+		public goToPage(page: number);
+    }
 	/**
      * NativeBase.Tab
      */
