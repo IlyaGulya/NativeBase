@@ -1,5 +1,5 @@
 {
-  "name": "native-base-ig",
+  "name": "native-base",
   "description": "Essential cross-platform UI components for React Native. Forked by Ilya Gulya to fix some typings.",
   "keywords": [
     "android",
